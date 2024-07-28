@@ -28,3 +28,16 @@
 <b>Макеты для бота:</b>
 
 https://www.figma.com/design/STjtnXphH7MaxJiacHKAXL/Дизайн-Музыкального-Бота?node-id=0-1&t=OTP94MIMYH4hKsAp-0
+
+Структа проекта:
+
+```
+   ├── main.py
+   ├── data
+   │    └── data_for_message.json
+   ├── make_data
+   │    └── data_for_message.py
+   ├── config.ini
+   ├── requirements.txt
+   └── README.md
+```
