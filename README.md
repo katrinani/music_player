@@ -37,6 +37,10 @@ https://www.figma.com/design/STjtnXphH7MaxJiacHKAXL/Дизайн-Музыкал�
    │    └── data_for_message.json
    ├── make_data
    │    └── data_for_message.py
+   ├── song_processing
+   │    └── song
+   │        └── ..песни
+   │    └── pars_song.py
    ├── config.ini
    ├── requirements.txt
    └── README.md
