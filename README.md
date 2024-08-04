@@ -33,15 +33,27 @@ https://www.figma.com/design/STjtnXphH7MaxJiacHKAXL/Дизайн-Музыкал�
 
 ```
    ├── main.py
+   ├── database
+   │    └── process_database.py
    ├── data
-   │    └── data_for_message.json
+   │    └── data_for_message.json   
    ├── make_data
    │    └── data_for_message.py
    ├── song_processing
    │    └── song
    │        └── ..песни
    │    └── pars_song.py
+   │    └── pars_spotify_song.py
    ├── config.ini
    ├── requirements.txt
    └── README.md
 ```
+
+Данные, используемые для проекта:
+
+1. Датасет new_spotify_song.csv для БД
+https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs/data
+2. Сайт, используемый для скачивания песен из spotify
+https://spotifydown.com/ru
+3. Сайт, используемый для скачивания песен, не найденных в spotify
+https://muzsky.net/

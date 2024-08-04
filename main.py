@@ -32,7 +32,7 @@ async def start_search_the_song(message: types.Message):
 # TODO статусы
 @dp.message(F.text)
 async def search_the_song(message: types.Message):
-    await message.answer("Ищем...")
+    await message.answer("Ищем... Среднее время ожидания 1 минута")
     answer = parsing_song(message.text)
     if answer == "404":
         await message.answer(text=data_for_message["not_found"])
@@ -43,9 +43,11 @@ async def search_the_song(message: types.Message):
         filename = files[0]
         filepath = os.path.join(directory, filename)
 
-        await message.answer(text=f"Найдена песня: {filename[:-4]}")
         song = FSInputFile(filepath)
-        await message.answer_audio(song)
+        await message.answer_audio(song, caption=f"Найдена песня: {filename[:-4]}")
+
+# TODO извлечь метаданные из песни
+# TODO добавить метаданные в базу данных и саму песню в вие байтов и удалить с компа
 
 
 async def main():
