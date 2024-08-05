@@ -29,7 +29,12 @@
 
 https://www.figma.com/design/STjtnXphH7MaxJiacHKAXL/Дизайн-Музыкального-Бота?node-id=0-1&t=OTP94MIMYH4hKsAp-0
 
-Структа проекта:
+
+<b>Схема Базы Данных:</b>
+
+https://drawsql.app/teams/admin-89/diagrams/shema-bazy-dannyh-dlya-bota
+
+<b>Структа проекта:</b>
 
 ```
    ├── main.py
@@ -49,7 +54,7 @@ https://www.figma.com/design/STjtnXphH7MaxJiacHKAXL/Дизайн-Музыкал�
    └── README.md
 ```
 
-Данные, используемые для проекта:
+<b>Данные, используемые для проекта:</b>
 
 1. Датасет new_spotify_song.csv для БД
 https://www.kaggle.com/datasets/joebeachcapital/30000-spotify-songs/data
